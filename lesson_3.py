@@ -1,4 +1,5 @@
 import numpy as np
+import pandas as pd
 
 ridership = np.array([
     [   0,    0,    2,    5,    0],
@@ -26,3 +27,18 @@ def min_and_max_riders_per_day(ridership):
     min_daily_ridership = daily_mean_per_station.min()
     
     return (max_daily_ridership, min_daily_ridership)
+
+def correlation(x, y):                          # pearson's R | correlation coeficient
+    std_x = (x - x.mean()) / x.std(ddof=0)
+    std_y = (y - y.mean()) / y.std(ddof=0)
+
+    return (std_x * std_y).mean()
+
+subway_df = pd.read_csv('./data/nyc_subway_weather.csv')
+
+# ============================ TEST CORRELATION ============================
+
+# print(correlation(subway_df['ENTRIESn_hourly'], subway_df['meanprecipi']))
+# print(correlation(subway_df['ENTRIESn_hourly'], subway_df['ENTRIESn']))
+
+# ==========================================================================
