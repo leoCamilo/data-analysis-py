@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns
 
 ridership = np.array([
     [   0,    0,    2,    5,    0],
