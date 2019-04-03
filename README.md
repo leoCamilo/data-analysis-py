@@ -1,6 +1,6 @@
 # data-analysis-py
 
-This little project is to learn more about data analysis.
+This little project is to learn more about data analysis methods and process.
 
 Those exercises written in python are based on this udacity [course](https://br.udacity.com/course/intro-to-data-analysis--ud170). With them are some examples of matplot library and spark EMR framework for python (pyspark)
 
