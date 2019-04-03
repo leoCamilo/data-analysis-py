@@ -2,7 +2,9 @@
 
 This little project is to learn more about data analysis methods and process.
 
-Those exercises written in python are based on this udacity [course](https://br.udacity.com/course/intro-to-data-analysis--ud170). With them are some examples of matplot library and spark EMR framework for python (pyspark)
+Those exercises written in python are based on this udacity [course](https://br.udacity.com/course/intro-to-data-analysis--ud170). With them are some examples of matplot library and spark EMR framework for python (pyspark).
+
+The course use jupyter notebook and Anaconda Python, I prefer the pure python and console approach.
 
 <p align="center">
   <img src="/screenshots/1.bmp" width="98%">
